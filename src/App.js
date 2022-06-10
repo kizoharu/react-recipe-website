@@ -15,13 +15,13 @@ function App() {
                 <Header />
                 <main className='container content'>
                     <Switch>
-                        <Route exact path='/'>
+                        <Route exact path='/react-recipe-website'>
                             <Home />
                         </Route>
-                        <Route path='/contact' component={Contact} />
-                        <Route path='/about' component={About} />
-                        <Route path='/category/:name' component={Category} />
-                        <Route path='/meal/:id' component={Recipe} />
+                        <Route path='/react-recipe-website/contact' component={Contact} />
+                        <Route path='/react-recipe-website/about' component={About} />
+                        <Route path='/react-recipe-website/category/:name' component={Category} />
+                        <Route path='/react-recipe-website/meal/:id' component={Recipe} />
                         <Route component={NotFound} />
                     </Switch>
                 </main>

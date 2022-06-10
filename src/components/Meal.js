@@ -12,7 +12,7 @@ function Meal(props) {
                 <span className='card-title'>{strMeal}</span>
             </div>
             <div className='card-action'>
-                <Link to={`/meal/${idMeal}`} className='btn'>
+                <Link to={`/react-recipe-website/meal/${idMeal}`} className='btn'>
                     Watch recipe
                 </Link>
             </div>
